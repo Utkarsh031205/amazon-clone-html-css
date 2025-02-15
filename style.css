@@ -282,7 +282,10 @@
 
 .pages {
     text-align: center;
+}
 
+.pages a {
+    margin-right: 10px;
 }
 
 .copyright {
