@@ -209,6 +209,7 @@
     transition-duration: 200ms;
     transition-property: all;
     border: 4px solid #febd68;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -251,6 +252,37 @@
     align-items: center;
     justify-content: center;
     font-size: 0.85rem;
+}
+
+#chevron-up {
+    font-size: 1.2rem;
+    margin-left: 9px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+#chevron-up:hover {
+    transition: ease-out;
+    transform: scale(1.1);
+    transition-property: all;
+    animation-duration: 500ms;
+}
+
+.top-button {
+    cursor: pointer;   
+    transition: all 0.3s ease-in-out;
+}
+
+.top-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-button:hover {
+    transition: ease-in-out;
+    transform: scale(1.1);
+    transition-property: all;
+    animation-duration: 500ms;
 }
 
 .footer-panel2 {
